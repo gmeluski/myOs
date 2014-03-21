@@ -19,6 +19,7 @@
 		27B427ED18DCAFD70006BDC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B427D518DCAFD70006BDC0 /* UIKit.framework */; };
 		27B427F518DCAFD80006BDC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27B427F318DCAFD80006BDC0 /* InfoPlist.strings */; };
 		27B427F718DCAFD80006BDC0 /* myOsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B427F618DCAFD80006BDC0 /* myOsAppTests.m */; };
+		27E58DE318DCD15E005D06B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E58DE218DCD15E005D06B8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		27B427F218DCAFD80006BDC0 /* myOsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myOsAppTests-Info.plist"; sourceTree = "<group>"; };
 		27B427F418DCAFD80006BDC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27B427F618DCAFD80006BDC0 /* myOsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myOsAppTests.m; sourceTree = "<group>"; };
+		27E58DE218DCD15E005D06B8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		27B427C518DCAFD70006BDC0 = {
 			isa = PBXGroup;
 			children = (
+				27E58DE218DCD15E005D06B8 /* Main.storyboard */,
 				27B427D718DCAFD70006BDC0 /* myOsApp */,
 				27B427F018DCAFD70006BDC0 /* myOsAppTests */,
 				27B427D018DCAFD70006BDC0 /* Frameworks */,
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E58DE318DCD15E005D06B8 /* Main.storyboard in Resources */,
 				27B427DC18DCAFD70006BDC0 /* InfoPlist.strings in Resources */,
 				27B427E418DCAFD70006BDC0 /* Images.xcassets in Resources */,
 			);
@@ -437,6 +441,7 @@
 				27B427FC18DCAFD80006BDC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27B427FD18DCAFD80006BDC0 /* Build configuration list for PBXNativeTarget "myOsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				27B427FF18DCAFD80006BDC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
